@@ -1,0 +1,220 @@
+.papa{
+position: absolute;
+top: 40px;
+left: 140px;
+width: 1090px;
+height: 550px;
+background: yellow;
+border:solid 1px black;
+z-index: 1;
+}
+.hijo{
+	position: absolute;
+	width: 800px;
+	height: 130px;
+	top: 30px;
+	left: 150px;
+	background:rgba(23,229,154,0);
+	border:solid;
+	display: flex;
+	background: url("jirafa.jpg");
+    justify-content: center;
+    align-items: center;
+    font-family: grado8;
+    font-size: 30px;
+    z-index: 3;	
+}
+.hijo1{
+position: absolute;
+top: 90px;
+left:350px;
+width: 700px;
+height: 90px;
+background:rgba(23,229,154,0);
+border:solid 4px black;
+z-index: 100;
+}
+
+.hijo2{
+	position: absolute;
+	width: 115px;
+	height: 40px;
+	top: 120px;
+	left: 650px;
+	background:rgba(158, 0, 255, 0.4);
+	border:solid;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: grado8;
+    font-size: 30px;
+    z-index: 200;
+
+    font-family: salome;
+	font-size: 30px;
+	color: black;
+}
+@font-face{
+font-family:salome;
+src: url(grande.ttf);
+}
+
+.primo{
+position: absolute;
+top: 250px;
+left:250px;
+width: 400px;
+height: 300px;
+background:rgba(23,229,154,0);
+border:solid 4px black;
+z-index: 100;
+}
+.primo1{
+	position: absolute;
+	width: 115px;
+	height: 40px;
+	top: 5px;
+	left: 140px;
+	background:rgba(23,229,154,0);
+	border:solid 0px black;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: grado8;
+    font-size: 30px;
+    z-index: 200;
+
+    font-family: holi;
+	font-size: 30px;
+	color: black;
+
+}
+@font-face{
+font-family:holi;
+src: url(memo.ttf);
+}
+.primo2{
+	position: absolute;
+	width: 315px;
+	height: 220px;
+	top: 50px;
+	left: 40px;
+	background:purple;
+	border:solid 5px black;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: grado8;
+    font-size: 30px;
+    z-index: 200;
+}
+.primo3{
+	position: absolute;
+	width: 270px;
+	height: 100px;
+	top: 100px;
+	left: 60px;
+	background:rgba(23,229,154,0.3);
+	border:solid 5px black;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: grado8;
+    font-size: 30px;
+    z-index: 200;
+}
+.letra{
+	position: absolute;
+	left: 80px;
+		top: 130px;
+		width: 250px;
+		   z-index: 500;
+font-family: hole;
+	font-size: 20px;
+	color: black;
+
+}
+@font-face{
+font-family:hole;
+src: url(locanita.ttf);
+}
+.tio{
+position: absolute;
+top: 0px;
+left:480px;
+width: 400px;
+height: 300px;
+background:rgba(23,229,154,0);
+border:solid 4px black;
+z-index: 100;
+
+}
+.tio1{
+position: absolute;
+top: 30px;
+left:500px;
+width: 120px;
+height: 100px;
+background: url("salu.jpg");
+background-size: cover;
+border:solid 4px black;
+z-index: 100;
+}
+.tio2{
+position: absolute;
+top: 30px;
+left:730px;
+width: 120px;
+height: 100px;
+background: url("mu.jpg");
+background-size: cover;
+border:solid 4px black;
+z-index: 200;
+}
+.tio3{
+position: absolute;
+top: 180px;
+left:730px;
+width: 120px;
+height: 100px;
+background: url("hello.png");
+background-size: cover;
+border:solid 4px black;
+z-index: 300;
+}
+.tio4{
+position: absolute;
+top: 180px;
+left:498px;
+width: 120px;
+height: 100px;
+background: url("mujer.jpg");
+background-size: cover;
+border:solid 4px black;
+z-index: 300;
+}
+.tio5{
+position: absolute;
+top: 80px;
+left:640px;
+width: 70px;
+height: 150px;
+background:rgba(158, 0, 255,0.7);
+border:solid 4px black;
+z-index: 300;
+}
+.letra2{
+	position: absolute;
+	left:1px;
+		top: 15px;
+		width: 50px;
+		   z-index: 500;
+		   font-family: hola;
+	font-size: 20px;
+	color: black;
+
+}
+@font-face{
+font-family:hola;
+src: url(locanita.ttf);
+}
